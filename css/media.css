@@ -206,7 +206,7 @@
     font-size: 14px;
   }
   #accordion .accordion--label details {
-    width: 135%;
+    width: 100%;
   }
   #accordion .accordion--label details summary {
     margin: 10px 0;
@@ -215,7 +215,7 @@
     display: flex;
     cursor: pointer;
     font-weight: 500;
-    width: 75%;
+    width: 100%;
     font-size: 17px;
     line-height: 30px;
     color: #FFFFFF;
