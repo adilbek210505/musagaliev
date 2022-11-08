@@ -20,7 +20,11 @@ button {
 }
 
 #header {
-  background: black;
+  position: fixed;
+  width: 100%;
+  z-index: 99;
+  backdrop-filter: blur(40px);
+  background: transparent;
   height: 82px;
 }
 #header .content {
@@ -722,7 +726,6 @@ button {
   line-height: 30px;
   color: #FFFFFF;
 }
-
 #footer {
   background: #222222;
   min-height: 50vh;

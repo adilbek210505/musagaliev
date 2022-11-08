@@ -1,4 +1,10 @@
 @media (max-width: 1440px) {
+  #navbar .nav--block {
+    width: 100%;
+  }
+  #page .page--block {
+    width: 100%;
+  }
   #page .page--block__left button {
     font-weight: 900;
     font-size: 18px;
@@ -46,7 +52,17 @@
 }
 @media (max-width: 992px) {
   #navbar .nav--block {
-    width: 100%;
+    width: 90%;
+    padding: 40px;
+  }
+  #navbar .nav--block__right h1 {
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 21px;
+    text-transform: capitalize;
+    color: #2C3E50;
+    max-width: 370px;
+    padding: 0 0 20px 9px;
   }
   #page .page--block__left button {
     font-weight: 900;
@@ -95,6 +111,9 @@
     width: 203px;
     height: 47px;
   }
+  #accordion .accordion--label details p {
+    padding: 20px 0;
+  }
   #accordion .accordion--label details summary {
     margin: 0 0;
   }
@@ -106,7 +125,7 @@
     object-fit: cover;
   }
   #navbar .nav--block__left p {
-    width: 396px;
+    width: 90%;
   }
   #navbar .nav--block__right h1 {
     padding: 0 0;
@@ -249,7 +268,8 @@
     display: none;
   }
   #navbar .nav--block {
-    width: 100%;
+    width: 90%;
+    padding: 20px;
   }
   #main .main--group__block {
     height: 350px;
@@ -383,6 +403,10 @@
 }
 .musaliev-img {
   width: 100%;
+}
+
+details p {
+  padding: 20px 0;
 }
 
 @media (max-width: 376px) {

@@ -4,10 +4,14 @@
 @import "mixin";
 
 #header {
+  position: fixed;
+  width: 100%;
+  z-index: 99;
+  backdrop-filter: blur(40px);
+  background: transparent;
   .content {
     display: none;
   }
-  background: black;
   height: 82px;
 
   .header {
@@ -750,6 +754,9 @@
           font-size: 20px;
           line-height: 30px;
           color: #FFFFFF;
+          &:after {
+
+          }
         }
       }
     }
