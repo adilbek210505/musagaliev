@@ -4,10 +4,22 @@
 @import "mixin";
 
 #header {
+  .content {
+    display: none;
+  }
   background: black;
   height: 82px;
 
   .header {
+    animation: adi 2s ease-in-out alternate;
+    @keyframes  adi {
+      0% {
+          transform: translateY(-1000px);
+      }
+      100% {
+          transform: translateY(0);
+      }
+    }
     ion-icon {
       color: #FFFFFF;
       font-size: 30px;
@@ -378,26 +390,7 @@
           font-size: 64px;
           line-height: 96px;
           color: #FFFFFF;
-          animation: ami 7s 1 ease-in-out;
-          @keyframes ami {
-            0% {
-              transform: translateX(3000px);
-            }
 
-            25% {
-              transform: translateX(0);
-              color: red;
-              transition: .5s;
-            }
-            50% {
-            }
-            70% {
-              transform: translateX(-3000px);
-            }
-            100% {
-              transform: translateX(0);
-            }
-          }
         }
       }
 
@@ -410,21 +403,7 @@
           font-size: 36px;
           line-height: 54px;
           color: #FFFFFF;
-          animation: ai 7s 2 ease-in-out;
-          @keyframes ai {
-            0% {
-              transform: translateX(-3000px);
-            }
-            50% {
-              transform: translateX(0);
-              color: darkblue;
-            }
-            70% {
-            }
-            100% {
-              transform: translateX(3000px);
-            }
-          }
+
         }
       }
 
@@ -439,16 +418,7 @@
           font-size: 24px;
           line-height: 36px;
           color: #FFFFFF;
-          animation: up 4s 2 ease-in-out;
-          @keyframes up {
-            0% {
-              transform: translateY(3000px);
-            }
-            100% {
-              transform: translateY(0);
-              color: orange;
-            }
-          }
+
         }
       }
 
