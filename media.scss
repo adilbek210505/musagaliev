@@ -3014,6 +3014,7 @@ details {
 
           details {
             summary {
+              font-size: 9px;
             }
 
             p {
@@ -3179,6 +3180,7 @@ details {
       &--bloks {
         &--h {
           &--group {
+            font-size: 35px;
             &__block {
               h1 {
 
@@ -3190,7 +3192,7 @@ details {
 
               &--text {
                 span {
-
+                  font-size: 35px;
                 }
 
                 h5 {
@@ -3272,7 +3274,7 @@ details {
       &--label {
         details {
           summary {
-            font-size: 10px;
+            font-size: 8px;
 
           }
         }
@@ -3586,6 +3588,7 @@ details {
       &--bloks {
         &--h {
           &--group {
+
             &__block {
               h1 {
 
@@ -3597,7 +3600,7 @@ details {
 
               &--text {
                 span {
-
+                  font-size: 35px;
                 }
 
                 h5 {
@@ -3753,3 +3756,412 @@ details {
     }
   }
 }
+
+@media (max-width: 299px) {
+  #header {
+    .header {
+      &--logo {
+        &__svx {
+        }
+
+        &__text {
+
+          h3 {
+
+          }
+        }
+      }
+
+      &--link {
+        a {
+
+        }
+      }
+
+      ion-icon {
+      }
+
+      button {
+
+      }
+    }
+  }
+  #hero {
+    .hero {
+      h1 {
+
+      }
+
+      p {
+
+      }
+
+      &--btn {
+        button {
+
+        }
+      }
+    }
+  }
+  #navbar {
+    .nav {
+      h1 {
+        font-size: 26px;
+      }
+
+      &--block {
+        width: 100%;
+
+        &__left {
+          p {
+
+          }
+
+          img {
+
+          }
+        }
+
+        &--right {
+          h1 {
+
+          }
+
+          details {
+            summary {
+            }
+
+            p {
+
+            }
+          }
+
+          h2 {
+
+          }
+
+          &--text {
+            &__p {
+
+            }
+
+            span {
+
+            }
+
+            h4 {
+
+            }
+
+            img {
+
+            }
+
+          }
+
+        }
+      }
+
+    }
+  }
+  #main {
+    .main {
+      h1 {
+
+      }
+
+      &--group {
+        &__block {
+          &--svj {
+
+          }
+
+        }
+      }
+
+    }
+  }
+  #page {
+    .page {
+      h1 {
+
+      }
+
+      &--block {
+        width: 100%;
+
+        &__left {
+          button {
+            font-weight: 900;
+            font-size: 18px;
+            line-height: 27px;
+            text-transform: capitalize;
+            color: #FFFFFF;
+            text-align: center;
+            border: none;
+            padding: 10px 102px;
+            background: #1A5CFF;
+            box-shadow: 0 8px 20px rgb(26 92 255 / 20%);
+            border-radius: 15px;
+          }
+
+          h2 {
+
+          }
+
+          p {
+
+          }
+
+          &--text {
+            display: flex;
+            align-items: center;
+            padding: 30px 0 24px 0;
+
+            &__one {
+              h3 {
+
+              }
+            }
+
+            &--two {
+              h3 {
+
+              }
+            }
+
+
+          }
+        }
+      }
+
+      &--right {
+        img {
+
+        }
+      }
+    }
+  }
+  #text {
+    .text {
+      h6 {
+
+      }
+
+      &--group {
+        &__one {
+          h1 {
+
+          }
+        }
+
+        &--two {
+          h2 {
+
+          }
+        }
+
+        &--three {
+          h3 {
+
+          }
+        }
+      }
+
+      &--block {
+        h1 {
+        }
+
+        &__grou {
+          &--one {
+            &__logo {
+              span {
+              }
+
+              img {
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+  #block {
+    .block {
+      h1 {
+
+      }
+
+      &--bloks {
+      }
+      }
+        &--h {
+          &--group {
+            &__block {
+              width: 245px;
+              padding: 20px;
+              h1 {
+
+              }
+
+              h6 {
+
+              }
+
+              &--text {
+                span {
+                  font-size: 26px;
+                }
+
+                h5 {
+
+                }
+
+              }
+
+              h3 {
+
+              }
+
+              h4 {
+
+              }
+
+              button {
+
+              }
+
+              h2 {
+
+              }
+            }
+          }
+
+
+      }
+    }
+  #service {
+    .service {
+      &--text {
+        h1 {
+
+        }
+
+        p {
+        }
+      }
+
+      &__inputs {
+        p {
+
+        }
+
+        input {
+
+        }
+
+        &__group {
+          p {
+
+          }
+
+          button {
+
+          }
+        }
+      }
+    }
+  }
+  #accordion {
+    .accordion {
+      &--text {
+        h1 {
+          padding: 20px 0;
+        }
+
+        ion-icon {
+
+        }
+      }
+
+      &--label {
+        details {
+          summary {
+            font-size: 8px;
+          }
+        }
+      }
+    }
+  }
+  #footer {
+    .footer {
+      img {
+
+      }
+
+      &--one {
+        h1 {
+
+        }
+
+        p {
+
+        }
+
+        button {
+
+        }
+      }
+
+      &--two {
+        h2 {
+
+        }
+
+        &__icon {
+          ion-icon {
+
+          }
+        }
+      }
+
+      &--thee {
+        p {
+          span {
+
+          }
+        }
+
+        input {
+
+        }
+
+        button {
+
+        }
+
+        h2 {
+
+        }
+      }
+    }
+
+    .pod {
+      p {
+
+      }
+
+      &--left {
+        p {
+
+        }
+
+        img {
+
+        }
+      }
+    }
+  }
+  }
+
+

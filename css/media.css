@@ -429,6 +429,9 @@ details p {
   #navbar .nav--block {
     height: 1187px;
   }
+  #navbar .nav--block--right details summary {
+    font-size: 9px;
+  }
   #main .main h1 {
     font-size: 18px;
   }
@@ -460,6 +463,12 @@ details p {
   #text .text--group__three {
     flex-wrap: wrap;
   }
+  #block .block--bloks--h--group {
+    font-size: 35px;
+  }
+  #block .block--bloks--h--group__block--text span {
+    font-size: 35px;
+  }
   #service .service--text h1 {
     padding: 19px 0;
   }
@@ -474,7 +483,7 @@ details p {
     line-height: 46px;
   }
   #accordion .accordion--label details summary {
-    font-size: 10px;
+    font-size: 8px;
   }
   #footer .footer--two {
     width: 90%;
@@ -499,6 +508,9 @@ details p {
     align-items: center;
     padding: 30px 0 24px 0;
   }
+  #block .block--bloks--h--group__block--text span {
+    font-size: 35px;
+  }
   #footer .footer--two {
     width: 90%;
   }
@@ -507,6 +519,48 @@ details p {
   }
   #footer .pod p {
     font-size: 9px;
+  }
+}
+@media (max-width: 299px) {
+  #navbar .nav h1 {
+    font-size: 26px;
+  }
+  #navbar .nav--block {
+    width: 100%;
+  }
+  #page .page--block {
+    width: 100%;
+  }
+  #page .page--block__left button {
+    font-weight: 900;
+    font-size: 18px;
+    line-height: 27px;
+    text-transform: capitalize;
+    color: #FFFFFF;
+    text-align: center;
+    border: none;
+    padding: 10px 102px;
+    background: #1A5CFF;
+    box-shadow: 0 8px 20px rgba(26, 92, 255, 0.2);
+    border-radius: 15px;
+  }
+  #page .page--block__left--text {
+    display: flex;
+    align-items: center;
+    padding: 30px 0 24px 0;
+  }
+  #block--h--group__block {
+    width: 245px;
+    padding: 20px;
+  }
+  #block--h--group__block--text span {
+    font-size: 26px;
+  }
+  #accordion .accordion--text h1 {
+    padding: 20px 0;
+  }
+  #accordion .accordion--label details summary {
+    font-size: 8px;
   }
 }
 

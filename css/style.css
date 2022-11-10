@@ -13,6 +13,10 @@ a {
   margin: 0 auto;
 }
 
+input {
+  outline: none;
+}
+
 button {
   border: none;
   outline: none;
@@ -142,7 +146,7 @@ button {
   color: #FFFFFF;
 }
 #navbar .nav--block {
-  width: 90%;
+  width: 100%;
   height: 600px;
   background: #FFFFFF;
   border-radius: 15px;
@@ -299,7 +303,7 @@ button {
   display: flex;
   align-items: flex-start;
   justify-content: space-between;
-  width: 90%;
+  width: 100%;
   height: 400px;
   background: #FFFFFF;
   border-radius: 15px;
@@ -526,6 +530,7 @@ button {
   display: flex;
   align-items: center;
   padding: 32px 0 0 0;
+  margin: 20px 0;
 }
 #block .block--h--group__block {
   max-width: 250px;
